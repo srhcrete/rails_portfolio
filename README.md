@@ -1,24 +1,9 @@
 # Portfolio - Sarah Crete Lindmar
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+# My Skills and Strengths
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Resilient person who takes on new challenges
+* Handle criticism well and learn from it
+* Troubleshooting skills, use logic to isolate problems with knowns and unknowns
+* Process oriented
