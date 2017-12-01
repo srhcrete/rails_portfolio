@@ -44,7 +44,7 @@
       - Skills#Edit
       - Skills#Delete
 
-# Learning about Admin Access with Rails Admin and CanCanCan
+## Learning about Admin Access with Rails Admin and CanCanCan
 
 * [Rails-Admin](https://github.com/sferik/rails_admin).
-  ![alt-text](app/assets/images/rails_admin.png)      
+  ![alt-text](images/rails_admin.png)      
