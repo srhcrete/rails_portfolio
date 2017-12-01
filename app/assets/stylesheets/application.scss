@@ -1,14 +1,39 @@
 @import 'bootstrap';
+
+@font-face {
+  font-family: 'raleway';
+  src: font-url('Raleway-Regular.ttf') format('truetype');
+  font-family: 'raleway-light';
+  src: font-url('Raleway-Light.ttf') format('truetype');
+}
+
 $dark-grey: #4f5566;
 $light-grey: #a6a9b2;
 $highlight: #7db6e8;
 $border: #f2e8e8;
 
+body {
+  font-family: raleway-light;
+}
+
+.clearfix:before
+.clearfix:after {
+  content: ' ';
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
 #navigation {
-  padding: 5%;
+  padding: 2.5em 5%;
+  border-bottom: 1px solid $border;
   .name {
     font-weight: 700;
-    font-size: .7em;
+    font-size: 1em;
+    letter-spacing: 5px;
+    padding: 5px;
     text-transform: uppercase;
     border: 2px solid $border;
     text-decoration: none
