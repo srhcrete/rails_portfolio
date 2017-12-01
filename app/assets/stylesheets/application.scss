@@ -1,1 +1,24 @@
 @import 'bootstrap';
+$dark-grey: #4f5566;
+$light-grey: #a6a9b2;
+$highlight: #7db6e8;
+$border: #f2e8e8;
+
+#navigation {
+  padding: 5%;
+  .name {
+    font-weight: 700;
+    font-size: .7em;
+    text-transform: uppercase;
+    border: 2px solid $border;
+    text-decoration: none
+  }
+  nav {
+    float: right;
+    a {
+      color: $dark-grey;
+      text-decoration: none;
+      margin: 10px;
+    }
+  }
+}
