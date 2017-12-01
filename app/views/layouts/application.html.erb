@@ -17,6 +17,23 @@
         <a href="#">Skills</a>
       </nav>
     </header>
-    <%= yield %>
+    <div class="wrapper clearfix">
+      <% if flash[:alert] %>
+        <div class="card">
+          <%= flash[:alert] %>
+        </div>
+      <% end %>
+      <% if flash[:notice] %>
+        <div class="card">
+          <%= flash[:notice] %>
+        </div>
+      <% end %>
+      <%= yield %>
+    </div>
+    <footer id="main_footer">
+      <p class='copyright'>&copy; 2017 Sarah Linder </p>
+      <a href="#"><i class='fa fa github'></a>
+      <a href="#"><i class='fa fa linkedin'></a>  
+    </footer>
   </body>
 </html>
