@@ -7,20 +7,20 @@
 # Modeling the data
 
   **posts**
-  title:string
-  content:text
+  - title:string
+  - content:text
 
   **projects**
-  title:string
-  description:text
-  link:string
+  - title:string
+  - description:text
+  - link:string
 
   **skills**
-  title:string
-  description:text
+  - title:string
+  - description:text
 
   **user**
-  (setup with devise)
+  - (setup with devise)
 
 # Pages needed in app  
 
