@@ -1,3 +1,13 @@
-// Place all the styles related to the home controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+// .col-6, .col-3 {
+//   float: left;
+// }
+
+.col-6 {
+  margin-left: 10px;
+  padding: 0 10% 0 2.5%;
+}
+
+.col-3 {
+  width: 27.5%;
+  padding: 0 2.5%;
+}
