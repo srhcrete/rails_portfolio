@@ -1,6 +1,10 @@
 class User < ApplicationRecord
   has_many :projects
   has_many :posts
+  has_many :skills
+
+  validates :email, :presence => true
+  validates :email, :uniqueness => true
 
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable and :omniauthable

@@ -1,4 +1,7 @@
 class ProjectsController < ApplicationController
+  before_action :find_project, only [:show, :edit, :update, :destroy]
+  before_action :authenticate_user!, except: [:index, :show]
+
   def index
     @projects = Project.all
   end
@@ -44,7 +47,7 @@ class ProjectsController < ApplicationController
 
 private
   def project_params
-    params.require(:project).permit(:title, :photo, :user_id)
+    params.require(:project).permit(:title, :description, :link)
   end
 
 end
