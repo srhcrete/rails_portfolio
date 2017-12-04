@@ -10,7 +10,8 @@
 
   <body>
     <header id='navigation' class='clearfix'>
-      <a href="#" class='name'>Sarah Lindmar</a>
+
+      <%= link_to('Sarah Lindmar', root_path, class: 'name') %>
       <nav>
         <a href="#">Posts</a>
         <%= link_to('Projects', projects_path) %>
