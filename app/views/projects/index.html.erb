@@ -1,6 +1,15 @@
 <h1>Projects Page</h1>
 
-<% @projects.each do |project| %>
-  <%= link_to(project.title, projects_path(project) %>
-  <%= project.link %>
+<% if @projects.any? %>
+  <div class="card">
+    <% @projects.each do |p| %>
+      <h4><%= p.title %></h4>
+      <p><%= p.description %></p>
+      <hr>
+    <% end %>
+  </div>
+<% else %>
+  <div class="card">
+    <h4>No current projects.</h4>
+  </div>
 <% end %>
