@@ -8,3 +8,14 @@
 * Handle criticism well and learn from it
 * Troubleshooting skills, I am good at using logic to isolate problems with knowns and unknowns
 * Process oriented
+
+## Set Up and Installation
+ Run the following commands in the terminal:
+ 1. `$ git clone` [this repository](https://github.com/srhcrete/rails_portfolio.git)
+ 2. `$ cd rails_portfolio`
+ 3. `$ bundle`
+ 4. `$ rails db:create`
+ 5. `$ rails db:migrate`
+ 6. `$ rails db:test:prepare` (if testing)
+ 7. `$ rails db:seed`
+ 8. Navigate to localhost:3000
