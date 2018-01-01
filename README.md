@@ -18,4 +18,5 @@
  5. `$ rails db:migrate`
  6. `$ rails db:test:prepare` (if testing)
  7. `$ rails db:seed`
- 8. Navigate to localhost:3000
+ 8. `$ rails s`
+ 9. Navigate to localhost:3000

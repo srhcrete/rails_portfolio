@@ -1,0 +1,15 @@
+<h1>Skills Page!!!</h1>
+
+<% if @skills.any? %>
+  <div class="card">
+    <% @skills.each do |skill| %>
+      <h4><%= skill.title %></h4>
+      <p><%= skill.description %></p>
+      <hr>
+    <% end %>
+  </div>
+<% else %>
+  <div class="card">
+    <h4>No current skills.</h4>
+  </div>
+<% end %>
