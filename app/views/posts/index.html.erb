@@ -1,0 +1,15 @@
+<h1>Posts Page</h1>
+
+<% if @posts.any? %>
+  <div class="card">
+    <% @posts.each do |post| %>
+      <h4><%= post.title %></h4>
+      <p><%= post.description %></p>
+      <hr>
+    <% end %>
+  </div>
+<% else %>
+  <div class="card">
+    <h4>No current posts.</h4>
+  </div>
+<% end %>
